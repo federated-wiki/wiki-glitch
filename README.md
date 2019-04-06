@@ -9,6 +9,7 @@ Welcome to Federated Wiki
 Testing GitHub Update Process
 =============================
 How does a pull request after initial import work?
+What if I don't delete the glitch branch after merging the pull request?
 
 <hr>
 
