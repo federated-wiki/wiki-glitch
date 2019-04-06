@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<title>framed content</title>
+<script type="module" >
+  let port2
+  document.addEventListener('DOMContentLoaded', event => {
+    console.log({hello: 'from framed/index.html'})
+    window.addEventListener('message', messageEvent => {
+      console.log({messageEvent})
+      port2 = messageEvent.ports[0]
+      port2.onmessage = message => {
+        document.body.innerHTML += '<p>ping</ping>'
+        port2.postMessage({
+          framedIndex: 'ack',
+          data: message.data
+        })
+      }
+    })
+  })
+</script>
+<h1>Intentionally Blank</h1>
