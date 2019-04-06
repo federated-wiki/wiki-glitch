@@ -1,0 +1,34 @@
+{
+  "name": "wiki-wiki",
+  "version": "0.0.6",
+  "private": true,
+  "description": "Host your own federated wiki",
+  "scripts": {
+    "start": "bash start.sh",
+    "postinstall": "bash postinstall.sh"
+  },
+  "dependencies": {
+    "pngjs": "^3.4.0",
+    "wiki": "^0.17.0",
+    "wiki-plugin-assets": "^0.2.1",
+    "wiki-plugin-fivestar": "^0.2.6",
+    "wiki-plugin-frame": "^0.2.2",
+    "wiki-plugin-graph": "^1.0.1",
+    "wiki-plugin-graphviz": "^0.3.0",
+    "wiki-plugin-json": "^0.1.10",
+    "wiki-plugin-morseteacher": "^1.0.0"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/wiki-wiki"
+  },
+  "license": "MIT",
+  "keywords": [
+    "glitch",
+    "wiki",
+    "federated",
+    "federated wiki"
+  ]
+}
