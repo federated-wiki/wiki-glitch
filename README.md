@@ -6,6 +6,9 @@ Welcome to Federated Wiki
 3. Click `Show` in the header to open your wiki in another tab.
 4. Follow instructions in the wiki itself to get started.
 
+Testing GitHub Update Process
+=============================
+How does a pull request after initial import work?
 
 <hr>
 
